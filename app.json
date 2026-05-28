@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "DentalScan",
+    "slug": "dentalscan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "dentalscan",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F7FF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dentalscan.app"
+    },
+    "android": {
+      "package": "com.dentalscan.app"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      ["expo-router", {}],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
